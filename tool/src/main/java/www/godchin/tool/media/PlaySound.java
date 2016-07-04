@@ -10,10 +10,14 @@ import java.io.IOException;
 public class PlaySound {
     private static MediaPlayer player;
     private boolean flag;
-    private PlaySound() {}//构造方法是私有的，从而避免外界利用构造方法直接创建任意多实例。
+
+    private PlaySound() {
+    }//构造方法是私有的，从而避免外界利用构造方法直接创建任意多实例。
+
     public static PlaySound getInstance() {
         return Holder.SINGLETON;
     }
+
     private static class Holder {
         private static final PlaySound SINGLETON = new PlaySound();
     }
@@ -25,7 +29,7 @@ public class PlaySound {
      * @param asm      AssetManager
      * @throws IOException
      */
-    public  void play(String filename, AssetManager asm) throws IOException {
+    public void play(String filename, AssetManager asm) throws IOException {
         if (!flag) {
             flag = true;
             AssetFileDescriptor afd = asm.openFd(filename);
