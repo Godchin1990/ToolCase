@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="7"
+    timestamp="352316145009377" >
+
+    <task
+        name="javac"
+        duration="82" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="163" />
+    <task
+        name="verifier"
+        duration="31" />
+
+    <artifact
+        location="C:\ToolCase\SpannableStringBuilderDemo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+
+    <build timestamp="352250241453643" >
+        <artifact
+            location="C:\ToolCase\SpannableStringBuilderDemo\build\outputs\apk\SpannableStringBuilderDemo-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="352316145009377" >
+        <artifact
+            location="C:\ToolCase\SpannableStringBuilderDemo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
