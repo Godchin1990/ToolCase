@@ -10,6 +10,10 @@ $RECYCLE.BIN/
 
 # Windows Installer files
 *.cab
+/build
+/bin
+/gradle
+/gen
 *.msi
 *.msm
 *.msp
