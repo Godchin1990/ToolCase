@@ -4,34 +4,29 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="352316145009377" >
+    timestamp="358676869885485" >
 
     <task
         name="javac"
-        duration="82" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="163" />
+        duration="0" />
     <task
         name="verifier"
-        duration="31" />
+        duration="0" />
 
     <artifact
-        location="C:\ToolCase\SpannableStringBuilderDemo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\ToolCase\SpannableStringBuilderDemo\build\outputs\apk\SpannableStringBuilderDemo-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="352250241453643" >
+    <build timestamp="358676869885485" >
         <artifact
             location="C:\ToolCase\SpannableStringBuilderDemo\build\outputs\apk\SpannableStringBuilderDemo-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="352316145009377" >
-        <artifact
-            location="C:\ToolCase\SpannableStringBuilderDemo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
